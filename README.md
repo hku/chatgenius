@@ -1,46 +1,28 @@
-# Getting Started with Create React App
+# ChatGenius
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+这是一个通过给定特定的 prompt 初始条件来优化chatGPT输出结果的chrome 插件。
 
-## Available Scripts
+This a chrome extension to optimize chatGPT results by prefixing prompt with a collection of usage tips.
 
-In the project directory, you can run:
+## 安装 （install）
 
-### `npm start`
+![inatall](doc/install.gif)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+开启开发者模式，将 dist 文件夹拖拽到 chrome extensions 区域，或者点击 “Load Unpacked” 按钮
 
-### `npm test`
+enable developer mode，drag the dist directory into the chrome-extension page, or click "Load Unpacked"
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## 使用 （usage）
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![usage](doc/usage.gif)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+打开chatGPT界面，选择你需要的功能，直接输入你的问题，然后回车，chatGPT 就会输出优化后的结果
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+(open [chatGPT](https://chat.openai.com/chat) , select the service type, describe your questions, then press Enter, chatGPT will output the reply after prompt optimization.)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
