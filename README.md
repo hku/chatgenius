@@ -23,7 +23,9 @@ enable developer mode，drag the dist directory into the chrome-extension page, 
 (open [chatGPT](https://chat.openai.com/chat) , select the service type, describe your questions, then press Enter, chatGPT will output the reply after prompt optimization.)
 
 
-## 其他
+## License
+
+MIT
 
 不定期更新插件，如果对插件有什么建议，欢迎联系作者 wx: digitalphysics, enjoy!
 
